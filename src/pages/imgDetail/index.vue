@@ -70,7 +70,6 @@
     <!-- 专辑 结束 -->
 
     <!-- 最热评论 comment hot -->
-    <!-- v-if="hot.length"有就显示这个模块 没有就不显示 -->
     <view
       class="comment hot"
       v-if="hot.length"
@@ -222,7 +221,6 @@ export default {
     },
     getComments(id) {
       this.request({
-        // id是动态的 所以我们将url串转换为动态的es6模板字符串
         url: `http://157.122.54.189:9088/image/v2/wallpaper/wallpaper/${id}/comment`
       }).then(result => {
         // console.log(result);
@@ -479,8 +477,6 @@ export default {
 // 最新评论
 .new {
   .iconpinglun {
-    // 元素优先级问题
-    // 最开始的元素red 后面又添加 因此两个等级 !import
     color: aqua !important;
   }
 }

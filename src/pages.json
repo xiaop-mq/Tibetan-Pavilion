@@ -86,22 +86,10 @@
 				"selectedIconPath": "./static/icon/home.png"
 			},
 			{
-				"pagePath": "pages/horizontal/index",
-				"text": "横屏",
-				"iconPath": "./static/icon/_img.png",
-				"selectedIconPath": "./static/icon/img.png"
-			},
-			{
 				"pagePath": "pages/video/index",
 				"text": "精美视频",
 				"iconPath": "./static/icon/_videocamera.png",
 				"selectedIconPath": "./static/icon/videocamera.png"
-			},
-			{
-				"pagePath": "pages/search/index",
-				"text": "搜索",
-				"iconPath": "./static/icon/_search.png",
-				"selectedIconPath": "./static/icon/search.png"
 			},
 			{
 				"pagePath": "pages/mine/index",
